@@ -1,10 +1,11 @@
-import { Pentagon } from "./Start.style";
+import { StartContainer } from "./Start.style";
+import RoundButton from "./RoundBtn";
 
 const Start = () => {
   return (
-    <div>
-      <Pentagon />
-    </div>
+    <StartContainer>
+      <RoundButton />
+    </StartContainer>
   );
 };
 export default Start;
