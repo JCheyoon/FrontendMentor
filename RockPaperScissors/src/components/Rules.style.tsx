@@ -1,16 +1,41 @@
 import styled from "styled-components";
+import { ReactComponent as RulesPic } from "../assets/image-rules-bonus.svg";
 
+export const BackDropContainer = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.75);
+`;
 export const RulesContainer = styled.div`
   position: fixed;
   margin: 0 auto;
   top: 25%;
   left: 0;
   right: 0;
-  width: 500px;
-  height: 500px;
-  background: white;
-  z-index: 99;
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  z-index: 2;
   border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1 {
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    color: hsl(229, 25%, 31%);
+  }
+`;
+
+export const RulesPicture = styled(RulesPic)`
+  padding-top: 30px;
 `;
 export const OpenRulesBtn = styled.button`
   border: 2px solid hsl(217, 16%, 45%);
@@ -29,9 +54,10 @@ export const OpenRulesBtn = styled.button`
 
 export const CloseRulesBtn = styled.button`
   position: absolute;
-  top: 1%;
+  top: 5%;
   right: 5%;
   background: none;
+  color: #b5b8c8;
   display: flex;
   justify-content: center;
   align-content: center;

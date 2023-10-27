@@ -2,10 +2,8 @@ import {
   BottomContainer,
   MiddleContainer,
   RoundBtnStyle,
-  RoundButtonContainer,
   TopContainer,
 } from "./RoundBtn.style";
-import { ButtonContentsTypes } from "./types";
 import { ReactComponent as Lizard } from "../assets/icon-lizard.svg";
 import { ReactComponent as Paper } from "../assets/icon-paper.svg";
 import { ReactComponent as Rock } from "../assets/icon-rock.svg";

@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e579d63-66c6-4510-9871-b4596089bcf8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/context/modalContext.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README-template.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RoundBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoundBtn.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Rules.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rules.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Rules.style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rules.style.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advice-generator/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../advice-generator/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advice-generator/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../advice-generator/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../advice-generator/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../advice-generator/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/modalContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/modalContext.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Cheyoon/code/study/mentor/RockPaperScissors",
+    "last_opened_file_path": "C:/Users/Cheyoon/code/study/mentor/advice-generator",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1698318307174</updated>
       <workItem from="1698318308201" duration="1000" />
-      <workItem from="1698392270592" duration="3426000" />
+      <workItem from="1698392270592" duration="8835000" />
     </task>
     <servers />
   </component>

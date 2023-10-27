@@ -1,5 +1,4 @@
 import React, { createContext, useState } from "react";
-import { Logo } from "../components/Score.style";
 
 export type DefaultValue = {
   showModal: () => void;
@@ -17,7 +16,6 @@ export const ModalProvider = ({ children }: ProviderProps) => {
   const [show, setShow] = useState(false);
 
   const showModal = () => {
-    console.log("show");
     setShow(true);
   };
   const hideModal = () => {
