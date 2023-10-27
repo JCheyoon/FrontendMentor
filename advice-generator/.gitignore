@@ -9,3 +9,4 @@
 .prettierignore
 node_modules
 public/design
+build
