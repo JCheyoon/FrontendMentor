@@ -9,28 +9,30 @@ import { ReactComponent as Paper } from "../assets/icon-paper.svg";
 import { ReactComponent as Rock } from "../assets/icon-rock.svg";
 import { ReactComponent as Scissors } from "../assets/icon-scissors.svg";
 import { ReactComponent as Spock } from "../assets/icon-spock.svg";
+import useGameStore from "../context/gameContex";
 
 const RoundButton = () => {
+  const { play } = useGameStore();
   return (
     <>
       <TopContainer>
-        <RoundBtnStyle className="orange">
+        <RoundBtnStyle className="orange" onClick={() => play("scissors")}>
           <Scissors />
         </RoundBtnStyle>
       </TopContainer>
       <MiddleContainer>
-        <RoundBtnStyle className="lightBlue">
+        <RoundBtnStyle className="lightBlue" onClick={() => play("spock")}>
           <Spock />
         </RoundBtnStyle>
-        <RoundBtnStyle className="blue">
+        <RoundBtnStyle className="blue" onClick={() => play("paper")}>
           <Paper />
         </RoundBtnStyle>
       </MiddleContainer>
       <BottomContainer>
-        <RoundBtnStyle className="purple">
+        <RoundBtnStyle className="purple" onClick={() => play("lizard")}>
           <Lizard />
         </RoundBtnStyle>
-        <RoundBtnStyle className="red">
+        <RoundBtnStyle className="red" onClick={() => play("rock")}>
           <Rock />
         </RoundBtnStyle>
       </BottomContainer>
