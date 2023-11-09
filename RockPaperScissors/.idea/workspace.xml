@@ -10,7 +10,8 @@
       <change beforePath="$PROJECT_DIR$/src/components/Result.style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Result.style.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RoundBtn.style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoundBtn.style.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RoundBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoundBtn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Start.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Start.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Score.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Score.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/gameContex.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/gameContex.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,7 @@
       <workItem from="1699004611090" duration="1447000" />
       <workItem from="1699268316299" duration="3132000" />
       <workItem from="1699365227723" duration="5927000" />
-      <workItem from="1699522786804" duration="4478000" />
+      <workItem from="1699522786804" duration="13587000" />
     </task>
     <servers />
   </component>

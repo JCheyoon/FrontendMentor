@@ -1,7 +1,7 @@
 import {
-  ComputerPickContainer,
+  EmptyBtn,
   PlayAgainBtn,
-  PlayerPickContainer,
+  PickContainer,
   ResetContainer,
   ResultContainer,
 } from "./Result.style";
@@ -12,27 +12,54 @@ import { ReactComponent as Paper } from "../assets/icon-paper.svg";
 import { ReactComponent as Rock } from "../assets/icon-rock.svg";
 import { ReactComponent as Scissors } from "../assets/icon-scissors.svg";
 import { ReactComponent as Spock } from "../assets/icon-spock.svg";
+import { useEffect, useState } from "react";
+
+const svgs = {
+  rock: <Rock />,
+  scissors: <Scissors />,
+  lizard: <Lizard />,
+  paper: <Paper />,
+  spock: <Spock />,
+};
 
 const Result = () => {
-  const { playAgain } = useGameStore();
+  const { playAgain, playerChoice, computerChoice, result } = useGameStore();
+  const [isTimePassed, setIsTimePassed] = useState(false);
+  const [isComputerChose, setIsComputerChose] = useState(false);
+  useEffect(() => {
+    setTimeout(() => {
+      setIsTimePassed(true);
+    }, 500);
+
+    setTimeout(() => {
+      setIsComputerChose(true);
+    }, 1000);
+  }, []);
+
   return (
     <ResultContainer>
-      <PlayerPickContainer>
+      <PickContainer>
         <h1>YOU PICKED</h1>
-        <RoundBtnStyle className="orange">
-          <Scissors />
+        <RoundBtnStyle className={playerChoice}>
+          {svgs[playerChoice]}
         </RoundBtnStyle>
-      </PlayerPickContainer>
-      <ResetContainer>
-        <h1>RESULT</h1>
-        <PlayAgainBtn onClick={playAgain}>PLAY AGAIN</PlayAgainBtn>
-      </ResetContainer>
-      <ComputerPickContainer>
+      </PickContainer>
+      {isComputerChose ? (
+        <ResetContainer>
+          <h1>{result?.toUpperCase()}</h1>
+          <PlayAgainBtn onClick={playAgain}>PLAY AGAIN</PlayAgainBtn>
+        </ResetContainer>
+      ) : null}
+      <PickContainer>
         <h1>THE HOUSE PICKED</h1>
-        <RoundBtnStyle className="orange">
-          <Scissors />
-        </RoundBtnStyle>
-      </ComputerPickContainer>
+        {isTimePassed ? (
+          <RoundBtnStyle className={computerChoice}>
+            {svgs[computerChoice]}
+          </RoundBtnStyle>
+        ) : (
+          <EmptyBtn />
+        )}
+      </PickContainer>
     </ResultContainer>
   );
 };

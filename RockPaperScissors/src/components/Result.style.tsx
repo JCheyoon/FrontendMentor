@@ -14,13 +14,12 @@ export const ResultContainer = styled.div`
   }
 `;
 
-export const PlayerPickContainer = styled.div`
+export const PickContainer = styled.div`
   width: 200px;
   padding: 20px;
-`;
-export const ComputerPickContainer = styled.div`
-  width: 200px;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const ResetContainer = styled.div`
@@ -39,4 +38,11 @@ export const PlayAgainBtn = styled.button`
   font-weight: bold;
   border-radius: 5px;
   letter-spacing: 2px;
+`;
+
+export const EmptyBtn = styled.div`
+  background: hsl(237, 49%, 15%) 90%;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
 `;

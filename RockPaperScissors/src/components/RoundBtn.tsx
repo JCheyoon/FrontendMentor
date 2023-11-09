@@ -17,31 +17,28 @@ const RoundButton = () => {
     <>
       <TopContainer>
         <RoundBtnStyle
-          className="orange fix-margin relative"
+          className="scissors fix-margin relative"
           onClick={() => play("scissors")}
         >
           <Scissors />
         </RoundBtnStyle>
       </TopContainer>
       <MiddleContainer>
-        <RoundBtnStyle
-          className="lightBlue relative"
-          onClick={() => play("spock")}
-        >
+        <RoundBtnStyle className="spock relative" onClick={() => play("spock")}>
           <Spock />
         </RoundBtnStyle>
-        <RoundBtnStyle className="blue relative" onClick={() => play("paper")}>
+        <RoundBtnStyle className="paper relative" onClick={() => play("paper")}>
           <Paper />
         </RoundBtnStyle>
       </MiddleContainer>
       <BottomContainer>
         <RoundBtnStyle
-          className="purple relative"
+          className="lizard relative"
           onClick={() => play("lizard")}
         >
           <Lizard />
         </RoundBtnStyle>
-        <RoundBtnStyle className="red relative" onClick={() => play("rock")}>
+        <RoundBtnStyle className="rock relative" onClick={() => play("rock")}>
           <Rock />
         </RoundBtnStyle>
       </BottomContainer>
