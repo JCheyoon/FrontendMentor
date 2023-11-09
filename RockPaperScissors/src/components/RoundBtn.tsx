@@ -16,23 +16,32 @@ const RoundButton = () => {
   return (
     <>
       <TopContainer>
-        <RoundBtnStyle className="orange" onClick={() => play("scissors")}>
+        <RoundBtnStyle
+          className="orange fix-margin relative"
+          onClick={() => play("scissors")}
+        >
           <Scissors />
         </RoundBtnStyle>
       </TopContainer>
       <MiddleContainer>
-        <RoundBtnStyle className="lightBlue" onClick={() => play("spock")}>
+        <RoundBtnStyle
+          className="lightBlue relative"
+          onClick={() => play("spock")}
+        >
           <Spock />
         </RoundBtnStyle>
-        <RoundBtnStyle className="blue" onClick={() => play("paper")}>
+        <RoundBtnStyle className="blue relative" onClick={() => play("paper")}>
           <Paper />
         </RoundBtnStyle>
       </MiddleContainer>
       <BottomContainer>
-        <RoundBtnStyle className="purple" onClick={() => play("lizard")}>
+        <RoundBtnStyle
+          className="purple relative"
+          onClick={() => play("lizard")}
+        >
           <Lizard />
         </RoundBtnStyle>
-        <RoundBtnStyle className="red" onClick={() => play("rock")}>
+        <RoundBtnStyle className="red relative" onClick={() => play("rock")}>
           <Rock />
         </RoundBtnStyle>
       </BottomContainer>

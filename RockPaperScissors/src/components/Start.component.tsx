@@ -5,7 +5,7 @@ import Result from "./Result.component";
 
 const Start = () => {
   const { isSelected } = useGameStore();
-  console.log(isSelected);
+
   return (
     <>
       {isSelected ? (

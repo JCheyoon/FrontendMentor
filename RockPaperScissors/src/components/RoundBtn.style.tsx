@@ -12,10 +12,15 @@ export const RoundBtnStyle = styled.button`
   height: 160px;
   border-radius: 50%;
   cursor: pointer;
-  position: relative;
+
+  &.relative {
+    position: relative;
+  }
+  &.fix-margin {
+    margin-top: -70px;
+  }
 
   &.orange {
-    margin-top: -70px;
     border-color: hsl(39, 89%, 49%);
     -webkit-box-shadow: 0px 5px 0px 2px hsl(39, 89%, 37%);
     box-shadow: 0px 5px 0px 2px hsl(39, 89%, 37%);
