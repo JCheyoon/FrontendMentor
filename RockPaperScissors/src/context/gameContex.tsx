@@ -1,23 +1,21 @@
 import { create } from "zustand";
-import { devtools, persist } from "zustand/middleware";
+import { persist } from "zustand/middleware";
 
 interface GameState {
   isSelected: boolean;
-  playerChoice: "string" | undefined;
-  computerChoice: "string" | undefined;
-  result: "win" | "lose" | "draw" | null;
+  playerChoice: string;
+  computerChoice: string;
+  result: string | null;
   score: number;
-  play: (
-    playerChoice: "rock" | "scissors" | "paper" | "lizard" | "spock",
-  ) => void;
-  playAgain: () => {};
+  play: (playerChoice: string) => void;
+  playAgain: () => void;
 }
 
 const useGameStore = create<GameState>()(
   persist(
     (set) => ({
-      playerChoice: null,
-      computerChoice: null,
+      playerChoice: "",
+      computerChoice: "",
       result: null,
       score: 0,
       isSelected: false,

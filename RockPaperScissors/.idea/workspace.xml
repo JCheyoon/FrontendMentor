@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e579d63-66c6-4510-9871-b4596089bcf8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/custom.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Result.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Result.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Result.style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Result.style.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RoundBtn.style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoundBtn.style.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RoundBtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RoundBtn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rules.style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rules.style.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Score.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Score.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Score.style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Score.style.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Start.style.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Start.style.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/gameContex.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/gameContex.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -55,7 +51,17 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.build">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -68,6 +74,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
@@ -86,7 +93,7 @@
       <workItem from="1699268316299" duration="3132000" />
       <workItem from="1699365227723" duration="5927000" />
       <workItem from="1699522786804" duration="18940000" />
-      <workItem from="1699608152769" duration="8659000" />
+      <workItem from="1699608152769" duration="10168000" />
     </task>
     <servers />
   </component>

@@ -18,8 +18,9 @@ import {
 
 import { useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive";
+import React from "react";
 
-const svgs = {
+const svgs: Record<string, React.ReactNode> = {
   rock: <RockSvg />,
   scissors: <ScissorsSvg />,
   lizard: <LizardSvg />,
