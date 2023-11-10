@@ -50,6 +50,12 @@ export const OpenRulesBtn = styled.button`
   bottom: 40px;
   right: 40px;
   padding: 10px 30px;
+
+  @media screen and (max-width: 640px) {
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 `;
 
 export const CloseRulesBtn = styled.button`

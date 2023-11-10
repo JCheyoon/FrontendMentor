@@ -1,6 +1,5 @@
 import { Logo, ScoreContainer, ScoreStyle } from "./Score.style";
 import useGameStore from "../context/gameContex";
-import { useEffect, useState } from "react";
 
 const Score = () => {
   const { score } = useGameStore();

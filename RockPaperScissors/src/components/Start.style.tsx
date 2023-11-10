@@ -5,5 +5,8 @@ export const StartContainer = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 420px;
+
+  @media screen and (max-width: 640px) {
+    margin-top: 90px;
+  }
 `;
