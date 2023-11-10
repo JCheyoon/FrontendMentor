@@ -1,5 +1,5 @@
-# BegopaRockPaperScissor
-provide by Frontendmentor
+# RockPaperScissors
+provide by Frontend mentor
 
 ### Public pages:
 https://cy-rocksicssorpaper.netlify.app/
