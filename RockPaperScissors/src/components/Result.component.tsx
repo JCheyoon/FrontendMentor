@@ -59,7 +59,9 @@ const Result = () => {
           {isComputerChose ? (
             <>
               <h1>{result?.toUpperCase()}</h1>
-              <PlayAgainBtn onClick={playAgain}>PLAY AGAIN</PlayAgainBtn>
+              <PlayAgainBtn aria-label="Play Again" onClick={playAgain}>
+                PLAY AGAIN
+              </PlayAgainBtn>
             </>
           ) : null}
         </ResetContainer>
@@ -79,7 +81,9 @@ const Result = () => {
           {isComputerChose ? (
             <>
               <h1>{result?.toUpperCase()}</h1>
-              <PlayAgainBtn onClick={playAgain}>PLAY AGAIN</PlayAgainBtn>
+              <PlayAgainBtn aria-label="Play Again" onClick={playAgain}>
+                PLAY AGAIN
+              </PlayAgainBtn>
             </>
           ) : (
             <EmptyDiv />

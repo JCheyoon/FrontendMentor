@@ -14,7 +14,7 @@ const Rules = () => {
         <>
           <BackDropContainer />
           <RulesContainer>
-            <CloseRulesBtn onClick={hideModal}>
+            <CloseRulesBtn aria-label="Close Button" onClick={hideModal}>
               <span className="material-symbols-outlined">close</span>
             </CloseRulesBtn>
             <h1>RULES</h1>
