@@ -5,6 +5,7 @@ const Plan = () => {
   return (
     <div>
       <h1>Plan</h1>
+
       <Link to="/">
         <Button title="Go Back" ghost={true} />
       </Link>

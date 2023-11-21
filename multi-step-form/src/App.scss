@@ -54,4 +54,8 @@ button {
   padding: 40px 70px 60px 80px;
   flex-grow: 3;
   position: relative;
+
+  p {
+    color: var(--Cool-gray);
+  }
 }
