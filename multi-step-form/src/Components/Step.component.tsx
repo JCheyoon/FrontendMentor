@@ -2,7 +2,6 @@ import "./Step.style.scss";
 import { useLocation } from "react-router";
 const Step = () => {
   const currentRoute = useLocation().pathname;
-  console.log(currentRoute);
 
   const stepList = [
     { number: 1, title: "YOUR INFO", route: "/" },
