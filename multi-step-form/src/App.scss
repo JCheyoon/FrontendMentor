@@ -33,6 +33,10 @@ button {
   bottom: 5%;
   right: 16%;
 
+  &:disabled {
+    background-color: var(--Cool-gray);
+    cursor: not-allowed;
+  }
   &.confirm {
     background-color: var(--Purplish-blue);
   }

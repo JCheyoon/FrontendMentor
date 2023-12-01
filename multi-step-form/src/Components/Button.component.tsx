@@ -2,8 +2,9 @@ interface Props {
   title: string;
   ghost: boolean;
   confirm?: boolean;
+  disabled?: boolean;
 }
-const Button = ({ title, ghost, confirm }: Props) => {
+const Button = ({ title, ghost, confirm, disabled }: Props) => {
   return (
     <>
       {ghost ? (
@@ -11,7 +12,7 @@ const Button = ({ title, ghost, confirm }: Props) => {
       ) : confirm ? (
         <button className="confirm">{title}</button>
       ) : (
-        <button>{title}</button>
+        <button disabled={disabled}>{title}</button>
       )}
     </>
   );
